@@ -1,0 +1,36 @@
+{
+  "name": "sp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon psg.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "add": "^2.0.6",
+    "concat": "^1.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "gt": "^0.10.0",
+    "install": "^0.13.0",
+    "is-equal": "^1.6.4",
+    "is-odd": "^3.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongomon": "^0.0.1",
+    "mongoose": "^7.2.2",
+    "multer": "^1.4.5-lts.1",
+    "multiple": "^0.2.1",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.22",
+    "or": "^0.2.0",
+    "react-countup": "^6.4.2",
+    "string": "^3.3.3"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.6.3"
+  },
+  "description": ""
+}

@@ -1,0 +1,702 @@
+{
+	"info": {
+		"_postman_id": "fb9f5f5b-faf8-4cbf-8f12-ac8fa21020d3",
+		"name": "cars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27741832"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "test",
+					"item": [
+						{
+							"name": "getcars",
+							"item": [
+								{
+									"name": "updatecarss",
+									"request": {
+										"method": "PATCH",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n             \"RollsRoyce\": \"phantom\",\r\n            \"price\": 100000000,\r\n            \"Fuel\": \"petrol,diesel\",\r\n            \"fueltank\": 70,\r\n            \"ingredients\" :[\r\n               \"647f081534abae865b89c4c4\",\r\n               \"64840ed4b9892fd599d2e584\",\r\n               \"64840ed4b9892fd599d2e587\",\r\n               \"64840ed4b9892fd599d2e589\",\r\n                \"64840ed4b9892fd599d2e588\"\r\n                \r\n            ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "localhost:3000/cars/64840ed4b9892fd599d2e589",
+											"host": [
+												"localhost"
+											],
+											"port": "3000",
+											"path": [
+												"cars",
+												"64840ed4b9892fd599d2e589"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "patch cars",
+											"originalRequest": {
+												"method": "PATCH",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "\r\n{\r\n   \"Mahindra\": \"xthor\",\r\n  \"price\" : 280000,\r\n  \"Fuel\" : \"Petrol,diesel\",\r\n  \"fueltank\" :50 \r\n}\r\n\r\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "localhost:3000/cars/647edd47758f8ded39e5e8e1",
+													"host": [
+														"localhost"
+													],
+													"port": "3000",
+													"path": [
+														"cars",
+														"647edd47758f8ded39e5e8e1"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "149"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"95-99FW7tlDf30y1nCXRpIszW2xAQE\""
+												},
+												{
+													"key": "Date",
+													"value": "Wed, 07 Jun 2023 03:57:31 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"status\": 200,\n    \"result\": {\n        \"acknowledged\": true,\n        \"modifiedCount\": 1,\n        \"upsertedId\": null,\n        \"upsertedCount\": 0,\n        \"matchedCount\": 1\n    },\n    \"message\": \"updated successfully\"\n}"
+										},
+										{
+											"name": "updatecarss",
+											"originalRequest": {
+												"method": "PATCH",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n             \"RollsRoyce\": \"phantom\",\r\n            \"price\": 100000000,\r\n            \"Fuel\": \"petrol,diesel\",\r\n            \"fueltank\": 70,\r\n            \"ingredients\" :[\r\n               \"647f081534abae865b89c4c4\",\r\n               \"64840ed4b9892fd599d2e584\",\r\n               \"64840ed4b9892fd599d2e587\",\r\n               \"64840ed4b9892fd599d2e589\",\r\n                \"64840ed4b9892fd599d2e588\"\r\n                \r\n            ]\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "localhost:3000/cars/64840ed4b9892fd599d2e589",
+													"host": [
+														"localhost"
+													],
+													"port": "3000",
+													"path": [
+														"cars",
+														"64840ed4b9892fd599d2e589"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "149"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"95-VF2+nFxaZtiZHPGgpQTqh2fjlug\""
+												},
+												{
+													"key": "Date",
+													"value": "Sun, 11 Jun 2023 19:24:35 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"status\": 200,\n    \"result\": {\n        \"acknowledged\": true,\n        \"modifiedCount\": 0,\n        \"upsertedId\": null,\n        \"upsertedCount\": 0,\n        \"matchedCount\": 1\n    },\n    \"message\": \"updated successfully\"\n}"
+										}
+									]
+								},
+								{
+									"name": "getcarss",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3000/cars",
+											"host": [
+												"localhost"
+											],
+											"port": "3000",
+											"path": [
+												"cars"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "getcarss",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "localhost:3000/cars",
+													"host": [
+														"localhost"
+													],
+													"port": "3000",
+													"path": [
+														"cars"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "690"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"2b2-mJd9jbZL0peSw+8ImeLI9nLVFW4\""
+												},
+												{
+													"key": "Date",
+													"value": "Sat, 10 Jun 2023 21:49:43 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"status\": 200,\n    \"result\": [\n        {\n            \"ingreedients\": [],\n            \"_id\": \"647f081534abae865b89c4c4\",\n            \"Maruti\": \"Swift\",\n            \"price\": 1500000,\n            \"Fuel\": \"Petrol\",\n            \"fueltank\": 45,\n            \"__v\": 0\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e585\",\n            \"Maruti suzuki\": \"x700\",\n            \"price\": 2200000,\n            \"Fuel\": \"Petrol\",\n            \"fueltank\": 45\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e587\",\n            \"Ford\": \"mustang\",\n            \"price\": 100000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 70\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e588\",\n            \"Tata\": \"altroz\",\n            \"price\": 950000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 60\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e589\",\n            \"RollsRoyce\": \"phantom\",\n            \"price\": 100000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 70\n        }\n    ],\n    \"message\": \" Data created successfully\"\n}"
+										},
+										{
+											"name": "getcarss",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "localhost:3000/cars",
+													"host": [
+														"localhost"
+													],
+													"port": "3000",
+													"path": [
+														"cars"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "690"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"2b2-3tdktI4Bq+VXdCs4RCfWTJOrPKU\""
+												},
+												{
+													"key": "Date",
+													"value": "Sat, 10 Jun 2023 23:43:42 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"status\": 200,\n    \"result\": [\n        {\n            \"ingreedients\": [],\n            \"_id\": \"647f081534abae865b89c4c4\",\n            \"Maruti\": \"Swift\",\n            \"price\": 1500000,\n            \"Fuel\": \"Petrol\",\n            \"fueltank\": 45,\n            \"__v\": 0\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e589\",\n            \"RollsRoyce\": \"phantom\",\n            \"price\": 100000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 70\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e588\",\n            \"Tata\": \"altroz\",\n            \"price\": 950000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 60\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e585\",\n            \"Maruti suzuki\": \"x700\",\n            \"price\": 2200000,\n            \"Fuel\": \"Petrol\",\n            \"fueltank\": 45\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e587\",\n            \"Ford\": \"mustang\",\n            \"price\": 100000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 70\n        }\n    ],\n    \"message\": \" Data created successfully\"\n}"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "post cars",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n     \r\n  \r\n  \"Maruti\": \"Swift\",\r\n  \"price\" : 1500000,\r\n  \"Fuel\" : \"Petrol\",\r\n  \"fueltank\" :45 \r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/cars/647edd47758f8ded39e5e8e1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"cars",
+										"647edd47758f8ded39e5e8e1"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "post cars",
+									"originalRequest": {
+										"method": "PATCH",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n     \r\n  \r\n  \"Maruti\": \"Swift\",\r\n  \"price\" : 1500000,\r\n  \"Fuel\" : \"Petrol\",\r\n  \"fueltank\" :45 \r\n}\r\n",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "localhost:3000/cars/647edd47758f8ded39e5e8e1",
+											"host": [
+												"localhost"
+											],
+											"port": "3000",
+											"path": [
+												"cars",
+												"647edd47758f8ded39e5e8e1"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "149"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"95-99FW7tlDf30y1nCXRpIszW2xAQE\""
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 07 Jun 2023 03:57:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"status\": 200,\n    \"result\": {\n        \"acknowledged\": true,\n        \"modifiedCount\": 1,\n        \"upsertedId\": null,\n        \"upsertedCount\": 0,\n        \"matchedCount\": 1\n    },\n    \"message\": \"updated successfully\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "getcarscalact",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "other",
+			"item": [
+				{
+					"name": "file upload",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/cars",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cars"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "file upload",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/cars",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"cars"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "684"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2ac-6YkHwGjZ18Rq3ptWVboTaw5iPjc\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 11 Jun 2023 18:58:58 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"result\": [\n        {\n            \"ingreedients\": [],\n            \"_id\": \"647f081534abae865b89c4c4\",\n            \"Maruti\": \"Swift\",\n            \"price\": 1500000,\n            \"Fuel\": \"Petrol\",\n            \"fueltank\": 45,\n            \"__v\": 0\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e589\",\n            \"RollsRoyce\": \"phantom\",\n            \"price\": 100000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 70\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e588\",\n            \"Tata\": \"altroz\",\n            \"price\": 950000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 60\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e585\",\n            \"Maruti suzuki\": \"x700\",\n            \"price\": 2200000,\n            \"Fuel\": \"Petrol\",\n            \"fueltank\": 45\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e587\",\n            \"Ford\": \"mustang\",\n            \"price\": 100000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 70\n        }\n    ],\n    \"message\": \"created successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "createtokencars",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"RollsRoyce\": \"phantom\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/cars/token",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cars",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get car by token",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "posttoken crete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"RollsRoyce\": \"phantom\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/cars/token",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cars",
+								"token"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "posttoken crete",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n     \"RollsRoyce\": \"phantom\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:3000/cars/token",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"cars",
+										"token"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "689"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2b1-FZkkwimxISevm38nmPoelXLJsWY\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 11 Jun 2023 18:51:14 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"result\": [\n        {\n            \"ingreedients\": [],\n            \"_id\": \"647f081534abae865b89c4c4\",\n            \"Maruti\": \"Swift\",\n            \"price\": 1500000,\n            \"Fuel\": \"Petrol\",\n            \"fueltank\": 45,\n            \"__v\": 0\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e589\",\n            \"RollsRoyce\": \"phantom\",\n            \"price\": 100000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 70\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e588\",\n            \"Tata\": \"altroz\",\n            \"price\": 950000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 60\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e585\",\n            \"Maruti suzuki\": \"x700\",\n            \"price\": 2200000,\n            \"Fuel\": \"Petrol\",\n            \"fueltank\": 45\n        },\n        {\n            \"ingreedients\": [],\n            \"_id\": \"64840ed4b9892fd599d2e587\",\n            \"Ford\": \"mustang\",\n            \"price\": 100000000,\n            \"Fuel\": \"petrol,diesel\",\n            \"fueltank\": 70\n        }\n    ],\n    \"message\": \"Data created successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "upload Files",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "newFile",
+									"type": "file",
+									"src": "/C:/Users/GOKUL P/Downloads/RollsRoyce.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3000/profile",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"profile"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "upload Files",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "newFile",
+											"type": "file",
+											"src": "/C:/Users/GOKUL P/Downloads/RollsRoyce.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:3000/profile",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "52"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"34-Fz+e9hDYokhWWjKATk80n4C0ivw\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 12 Jun 2023 00:24:14 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"message\": \"File upload  successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "fileupload",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
